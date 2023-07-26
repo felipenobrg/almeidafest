@@ -1,13 +1,14 @@
 
+import { NavLink } from "react-router-dom";
 import { SectionLinksContainer } from "./styles";
 
 export function SectionLinks() {
   return (
     <SectionLinksContainer>
-        <a>Tendas</a>
-        <a>Mesas e Cadeiras</a>
-        <a>Freezers</a>
-        <a>Toalhas</a>
+        <NavLink to={"/tendas"}>Tendas</NavLink>
+        <NavLink to={"/mesasecadeiras"}>Mesas e Cadeiras</NavLink>
+        <NavLink to={"/freezers"}>Freezers</NavLink>
+        <NavLink to={"/toalhas"}>Toalhas</NavLink>
     </SectionLinksContainer>
   );
 }
