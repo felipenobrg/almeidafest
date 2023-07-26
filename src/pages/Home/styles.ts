@@ -1,7 +1,5 @@
 import { styled } from "styled-components";
 
-
-
 export const InfoCompany = styled.div`
   display: flex;
   justify-content: center;
@@ -16,23 +14,31 @@ export const InfoCompany = styled.div`
 
   h1 {
    color: ${(props) => props.theme["gray-700"]};
+
+   @media (max-width: 768px) {
+    font-size: 1.65rem;
+  }
   }
 
   p {
     font-size: 1.2rem;
+
+    @media (max-width: 768px) {
+    font-size: 1rem;
+  }
   }
 
   button {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.3rem;
 
     width: 50%;
     background: ${(props) => props.theme["green-300"]};
     color: ${(props) => props.theme["white"]};
     margin-top: 1rem;
-    padding: 1rem 2rem;
+    padding: 1.2rem;
     font-size: 1.3rem;
     font-weight: bold;
     border: 0;
@@ -43,5 +49,11 @@ export const InfoCompany = styled.div`
       transition: 0.6s ease;
       background: ${(props) => props.theme["green-400"]};
     }
+
+    @media (max-width: 768px) {
+     width: 100%;
+     gap: 0;
+     padding: 1rem;
+  }
   }
 `;

@@ -1,15 +1,22 @@
 import { styled } from "styled-components";
 
-export const CarouselContainer = styled.div`
-   width: 100%;
-   margin-top: 1rem;
 
-   img {
+export const CarouselContainer = styled.div`
+  width: 100%;
+  margin-top: 1rem;
+  flex: 0;
+
+  img {
     width: 100%;
     height: 38rem;
-   }
-`
+  }
 
+  @media (max-width: 768px) {
+    img {
+      height: 20rem;
+    }
+  }
+`;
 
 export const ImageContainer = styled.div`
   position: relative;
@@ -17,16 +24,27 @@ export const ImageContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex: 0;
+`;
+
+export const Image = styled.img`
+  width: 100rem;
+  max-width: 400px; 
 `;
 
 export const ImageText = styled.div`
   position: absolute;
-  color: white;
+  color: ${(props) => props.theme["white"]};
   background-color: rgba(0, 0, 0, 0.5);
   padding: 2rem;
   text-align: center;
   border-radius: 9px;
   font-size: 1.8rem;
+
+  @media (max-width: 768px) {
+    padding: 0.2rem;
+    font-size: 1.1rem;
+  }
 `;
 
 export const ImageButton = styled.button`
@@ -47,8 +65,13 @@ export const ImageButton = styled.button`
 
   &:hover {
     transition: 0.6s ease;
-    background: ${(props => props.theme["white"])};
-    color: ${(props => props.theme["black"])};
+    background: ${(props) => props.theme["white"]};
+    color: ${(props) => props.theme["black"]};
+  }
+
+  @media (max-width: 768px) {
+    margin-top: 6rem;
+    font-size: 0.8rem;
+    padding: 0.3rem;
   }
 `;
-
