@@ -68,6 +68,7 @@ export const TendaType = styled.h1`
   @media (max-width: 768px) {
       font-size: 1.5rem;
       margin: 0 auto;
+      margin-top: 0.5rem;
     }
 `;
 
