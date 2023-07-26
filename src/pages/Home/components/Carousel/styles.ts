@@ -1,6 +1,5 @@
 import { styled } from "styled-components";
 
-
 export const CarouselContainer = styled.div`
   width: 100%;
   margin-top: 1rem;
@@ -24,7 +23,6 @@ export const ImageContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex: 0;
 `;
 
 export const Image = styled.img`
