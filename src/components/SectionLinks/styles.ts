@@ -1,6 +1,4 @@
 import { styled } from "styled-components";
-
-
 export const SectionLinksContainer = styled.nav`
   display: flex;
   justify-content: space-evenly;
@@ -20,6 +18,7 @@ export const SectionLinksContainer = styled.nav`
     background-color: transparent;
     transition: color 0.3s ease;
     position: relative;
+    cursor: pointer;
   }
 
   a:hover {

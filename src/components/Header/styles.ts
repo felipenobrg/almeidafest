@@ -8,7 +8,7 @@ export const HeaderContainer = styled.div`
    background-color: ${(props => props.theme["white"])};
    position: sticky;
    top: 0;
-   flex: 100;
+   z-index: 100;
 
    img {
     width: 20rem;

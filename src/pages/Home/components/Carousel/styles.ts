@@ -4,7 +4,7 @@ import { styled } from "styled-components";
 export const CarouselContainer = styled.div`
   width: 100%;
   margin-top: 1rem;
-  flex: 0;
+  z-index: 0;
 
   img {
     width: 100%;

@@ -53,7 +53,7 @@ export function Carousel() {
               <ImageContainer>
                 <img src={ResponsiveImageTenda} alt="" />
                 <ImageText>
-                  Faça seu o seu orçamento com quem tá há mais de 15 anos no
+                  Faça seu o seu orçamento com quem tá há mais de 20 anos no
                   mercado!
                 </ImageText>
                 <ImageButton>
@@ -65,7 +65,7 @@ export function Carousel() {
               <ImageContainer>
                 <img src={CarouselImage2} alt="" />
                 <ImageText>
-                  Faça seu o seu orçamento com quem tá há mais de 15 anos no
+                  Faça seu o seu orçamento com quem tá há mais de 20 anos no
                   mercado!
                 </ImageText>
                 <ImageButton>
@@ -80,7 +80,7 @@ export function Carousel() {
                 <ImageContainer>
                   <img src={CarouselImage1} alt="" />
                   <ImageText>
-                    Faça seu o seu orçamento com quem tá há mais de 15 anos no
+                    Faça seu o seu orçamento com quem tá há mais de 20 anos no
                     mercado!
                   </ImageText>
                   <ImageButton>

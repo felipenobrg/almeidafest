@@ -5,6 +5,7 @@ import { InfoCompany } from "./styles";
 import { WhatsappLogo } from "phosphor-react";
 import { Carousel } from "../Home/components/Carousel";
 import { WhatsAppButton } from "../../components/WhatsAppButton";
+import { Footer } from "../../components/Footer";
 
 export function Home() {
   return (
@@ -16,7 +17,7 @@ export function Home() {
 
       <InfoCompany>
         <h1>
-          Há mais de 15 anos no mercado no ramo de locação em João Pessoa e
+          Há mais de 20 anos no mercado no ramo de locação em João Pessoa e
           Região!
         </h1>
         <p>
@@ -29,6 +30,7 @@ export function Home() {
         </button>
       </InfoCompany>
       <WhatsAppButton />
+      <Footer />
     </>
   );
 }

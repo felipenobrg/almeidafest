@@ -52,7 +52,7 @@ export const InfoCompany = styled.div`
 
     @media (max-width: 768px) {
      width: 100%;
-     gap: 0;
+     gap: 5px;
      padding: 1rem;
   }
   }
