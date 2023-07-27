@@ -11,8 +11,12 @@ import {
 } from "./styles";
 
 import MesasECadeirasImg from "../../assets/MesasECadeiras/MesasECadeiras.jpeg"
+import { useContext } from "react";
+import { WhatsAppApiContext } from "../../context/WhatsAppApiContext";
 
 export function MesasECadeiras() {
+  const { handleWhatsAppClick, setText } = useContext(WhatsAppApiContext)
+  setText("Olá. Gostaria fazer um orçamento de Mesas e Cadeiras")
   return (
     <>
       <Header />
@@ -29,7 +33,7 @@ export function MesasECadeiras() {
             <p>Cadeira: 51x43x89cm C/L/A</p>
             <span>Peso suportado: 154kg</span>
           </MesasECadeirasSize>
-          <button>
+          <button onClick={handleWhatsAppClick}>
             FAÇA SEU ORÇAMENTO <WhatsappLogo size={24} />
           </button>
         </InformationMesasECadeirasContainer>

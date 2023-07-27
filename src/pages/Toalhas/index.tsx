@@ -4,8 +4,12 @@ import { SectionLinks } from "../../components/SectionLinks";
 import { WhatsAppButton } from "../../components/WhatsAppButton";
 import { AboutToalhasContainer, ToalhasImgContainer, InformationToalhasContainer, ToalhasType, ToalhasSize } from "./styles";
 import ToalhasImg from "../../assets/Toalhas/Toalhas.jpg"
+import { useContext } from "react";
+import { WhatsAppApiContext } from "../../context/WhatsAppApiContext";
 
 export function Toalhas() {
+  const { handleWhatsAppClick, setText } = useContext(WhatsAppApiContext)
+  setText("Olá. Gostaria fazer um orçamento de Toalhas")
   return (
     <>
       <Header />
@@ -23,7 +27,7 @@ export function Toalhas() {
             <h1>Confira os TAMANHOS</h1>
             <p>Mesa: 150x150cm </p>
           </ToalhasSize>
-          <button>
+          <button onClick={handleWhatsAppClick}>
             FAÇA SEU ORÇAMENTO <WhatsappLogo size={24} />
           </button>
         </InformationToalhasContainer>

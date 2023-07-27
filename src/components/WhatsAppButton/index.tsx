@@ -1,9 +1,18 @@
 import { WhatsappLogo } from "phosphor-react";
 import { WhatsAppButtonContainer } from "./styles";
+import queryString from "query-string";
 
 export function WhatsAppButton() {
+  function handleWhatsAppClick() {
+    const url = `https://api.whatsapp.com/send?${queryString.stringify({
+      phone: "5583987663399",
+      text: "Olá. Gostaria de fazer um orçamento",
+    })}`;
+    window.open(url, "_blank");
+  }
+
   return (
-    <WhatsAppButtonContainer>
+    <WhatsAppButtonContainer onClick={handleWhatsAppClick}>
     <WhatsappLogo
       size={45}
       weight="fill"
@@ -11,4 +20,4 @@ export function WhatsAppButton() {
     />
     </WhatsAppButtonContainer>
   );
-}
+  }

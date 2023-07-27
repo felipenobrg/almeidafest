@@ -34,7 +34,7 @@ export const InfoCompany = styled.div`
     justify-content: center;
     gap: 0.3rem;
 
-    width: 50%;
+    width: 20%;
     background: ${(props) => props.theme["green-300"]};
     color: ${(props) => props.theme["white"]};
     margin-top: 1rem;
