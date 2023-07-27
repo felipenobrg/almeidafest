@@ -17,7 +17,7 @@ export const WhatsAppApiProvider = ({ children }: WhatsAppApiContextProviderProp
     const [text, setText] = useState("Olá. Gostaria de fazer um orçamento");
   function handleWhatsAppClick() {
     const url = `https://api.whatsapp.com/send?${queryString.stringify({
-      phone: "5583987663399",
+      phone: "5583988888886",
       text: text,
     })}`;
     window.open(url, "_blank");

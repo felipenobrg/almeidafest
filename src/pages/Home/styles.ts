@@ -32,10 +32,11 @@ export const InfoCompany = styled.div`
 
   p {
     font-size: 1.2rem;
-    width: 70%;
+    width: 50%;
     margin-bottom: 2rem;
     @media (max-width: 768px) {
       font-size: 1rem;
+      width: 100%;
     }
   }
 
