@@ -14,10 +14,12 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-import CarouselImage1 from "../../../../assets/CarouselImages/Image1.jpg";
-import CarouselImage2 from "../../../../assets/CarouselImages/Image2.jpg";
+import CarouselImage1 from "../../../../assets/CarouselImages/Tenda1.jpg";
+import CarouselImage2 from "../../../../assets/CarouselImages/Tenda2.jpg";
+import CarouselImage3 from "../../../../assets/CarouselImages/Tenda3.jpg";
 
 import ResponsiveImageTenda from "../../../../assets/ResponsiveCarouselImages/ResponsiveTenda.jpg";
+import ResponsiveImageTenda2 from "../../../../assets/ResponsiveCarouselImages/ResponsiveTenda2.jpg";
 
 import { useState, useEffect } from "react";
 
@@ -61,13 +63,20 @@ export function Carousel() {
                 </ImageButton>
               </ImageContainer>
             </SwiperSlide>
+            <SwiperSlide>
+              <ImageContainer>
+                <img src={ResponsiveImageTenda2} alt="" />
+                <ImageText>
+                Trabalhamos com Locação de: Tendas, Mesas e Cadeiras, Freezers
+                </ImageText>
+                <ImageButton>
+                  Clique para fazer seu orçamento <WhatsappLogo size={22} />
+                </ImageButton>
+              </ImageContainer>
+            </SwiperSlide>
               <SwiperSlide>
               <ImageContainer>
-                <img src={CarouselImage2} alt="" />
-                <ImageText>
-                  Faça seu o seu orçamento com quem tá há mais de 20 anos no
-                  mercado!
-                </ImageText>
+                <img src={CarouselImage3} alt="" />
                 <ImageButton>
                   Clique para fazer seu orçamento <WhatsappLogo size={22} />
                 </ImageButton>
@@ -88,12 +97,12 @@ export function Carousel() {
                   </ImageButton>
                 </ImageContainer>
               </SwiperSlide>
+
               <SwiperSlide>
                 <ImageContainer>
-                  <img src={ResponsiveImageTenda} alt="" />
+                  <img src={CarouselImage3} alt="" />
                   <ImageText>
-                    Faça seu orçamento com quem tá há mais de 15 anos no
-                    mercado!
+                  Trabalhamos com Locação de: Tendas, Mesas e Cadeiras, Freezers
                   </ImageText>
                   <ImageButton>
                     Clique para fazer seu orçamento <WhatsappLogo size={22} />
@@ -104,9 +113,6 @@ export function Carousel() {
               <SwiperSlide>
                 <ImageContainer>
                   <img src={CarouselImage2} alt="" />
-                  <ImageText>
-                    Trabalhamos com: Tendas, Mesas e Cadeiras, Freezers
-                  </ImageText>
                   <ImageButton>
                     Clique para fazer seu orçamento <WhatsappLogo size={22} />
                   </ImageButton>

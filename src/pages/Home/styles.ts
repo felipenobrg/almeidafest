@@ -34,12 +34,12 @@ export const InfoCompany = styled.div`
     justify-content: center;
     gap: 0.3rem;
 
-    width: 20%;
+    width: 22%;
     background: ${(props) => props.theme["green-300"]};
     color: ${(props) => props.theme["white"]};
     margin-top: 1rem;
     padding: 1.2rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: bold;
     border: 0;
     border-radius: 9px;
@@ -54,6 +54,7 @@ export const InfoCompany = styled.div`
      width: 100%;
      gap: 5px;
      padding: 1rem;
+     font-size: 1rem;
   }
   }
 `;
