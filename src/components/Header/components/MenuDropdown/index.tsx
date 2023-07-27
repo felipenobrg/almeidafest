@@ -22,6 +22,7 @@ export function MenuDropdown() {
         <>
           <DropdownMenu open={isDropdownOpen}>
             <DropdownList>
+              <NavLink to={"/"}>Início</NavLink>
               <NavLink to={"/tendas"}>Tendas</NavLink>
               <NavLink to={"/mesasecadeiras"}>Mesas e Cadeiras</NavLink>
               <NavLink to={"/freezers"}>Freezers</NavLink>
