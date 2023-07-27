@@ -11,7 +11,7 @@ const slideIn = keyframes`
   }
 `;
 
-export const DropdownMenu = styled.div<{ open: boolean }>`
+export const DropdownMenu = styled.aside<{ open: boolean }>`
   display: ${(props) => (props.open ? "flex" : "none")};
   justify-content: center;
   align-items: center;
@@ -24,6 +24,7 @@ export const DropdownMenu = styled.div<{ open: boolean }>`
   background-color: ${(props) => props.theme["gray-100"]};
   border-radius: 4px;
   animation: ${slideIn} 0.3s ease-in-out;
+  padding: 1rem;
 `;
 
 export const DropdownList = styled.div`

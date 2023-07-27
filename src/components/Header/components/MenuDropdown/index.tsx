@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { DropdownButton, DropdownList, DropdownMenu } from "./styles";
+import { NavLink } from "react-router-dom";
 
 export function MenuDropdown() {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -21,10 +22,10 @@ export function MenuDropdown() {
         <>
           <DropdownMenu open={isDropdownOpen}>
             <DropdownList>
-              <a>Tendas</a>
-              <a>Mesas e Cadeiras</a>
-              <a>Freezers</a>
-              <a>Toalhas</a>
+              <NavLink to={"/tendas"}>Tendas</NavLink>
+              <NavLink to={"/mesasecadeiras"}>Mesas e Cadeiras</NavLink>
+              <NavLink to={"/freezers"}>Freezers</NavLink>
+              <NavLink to={"/toalhas"}>Toalhas</NavLink>
             </DropdownList>
           </DropdownMenu>
         </>

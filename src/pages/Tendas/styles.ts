@@ -51,6 +51,10 @@ export const InformationTendaContainer = styled.div`
         width: 12rem;
         margin: 0 auto;
         margin-top: 0.8rem;
+
+        svg {
+        width: 12rem;
+      }
       }
     }
 `;
