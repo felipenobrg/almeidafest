@@ -14,15 +14,33 @@ export function Home() {
       <SectionLinks />
 
       <Carousel />
-
       <InfoCompany>
+        <h1>Quem somos?</h1>
+        <p>
+          A empresa Almeida Fest é uma pioneira no mercado de aluguel de mesas e
+          cadeiras, tendas, toalhas e freezers em João Pessoa e região. Sua
+          trajetória teve início em 2003, e ao longo de mais de 20 anos, nos
+          dedicamos a promover o melhor serviço na área.
+        </p>
+        <h1>Por que escolher a <strong>Almeida Fest?</strong></h1>
+        <p>
+          Com uma ampla gama de produtos disponíveis para os mais diversos tipos
+          de eventos, nossa experiência consolidada nos torna a escolha ideal
+          para quem busca qualidade e confiabilidade na locação de itens
+          essenciais para festas e comemorações. Seja um evento corporativo,
+          casamento, festa de aniversário ou qualquer outra ocasião especial,
+          estamos preparados para atender as necessidades dos nossos clientes
+          com eficiência e profissionalismo
+        </p>
         <h1>
-          Há mais de 20 anos no mercado no ramo de locação em João Pessoa e
-          Região!
+          Há mais de 20 anos no mercado de locação em João Pessoa e Região!
         </h1>
         <p>
-          Trabalhamos com locação de Tendas, Mesas e Cadeiras, Freezers,
-          Toalhas.{" "}
+          Ao longo dos anos, solidificamos nossa presença no mercado de aluguel
+          em João Pessoa e região, sendo reconhecidos como uma empresa de
+          confiança e excelência em serviços de locação. Trabalhamos com aluguel
+          de tendas, mesas, cadeiras, freezers e toalhas, garantindo que o seu
+          evento seja um verdadeiro sucesso.
         </p>
         <button>
           {" "}

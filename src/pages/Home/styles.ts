@@ -5,27 +5,38 @@ export const InfoCompany = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 1rem;
+  gap: 0.3rem;
 
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   padding: 2rem;
   text-align: center;
   background: ${(props) => props.theme["gray-100"]};
 
-  h1 {
-   color: ${(props) => props.theme["gray-700"]};
 
-   @media (max-width: 768px) {
-    font-size: 1.65rem;
-  }
+
+  h1 {
+    color: ${(props) => props.theme["gray-700"]};
+    font-size: 2rem;
+    width: 80%;
+    margin-bottom: 0.3rem;
+
+    strong {
+      color: #D11B18;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      font-size: 1.65rem;
+    }
   }
 
   p {
     font-size: 1.2rem;
-
+    width: 70%;
+    margin-bottom: 2rem;
     @media (max-width: 768px) {
-    font-size: 1rem;
-  }
+      font-size: 1rem;
+    }
   }
 
   button {
@@ -44,17 +55,17 @@ export const InfoCompany = styled.div`
     border: 0;
     border-radius: 9px;
     cursor: pointer;
-  
+
     &:hover {
       transition: 0.6s ease;
       background: ${(props) => props.theme["green-400"]};
     }
 
     @media (max-width: 768px) {
-     width: 100%;
-     gap: 5px;
-     padding: 1rem;
-     font-size: 1rem;
-  }
+      width: 100%;
+      gap: 5px;
+      padding: 1rem;
+      font-size: 1rem;
+    }
   }
 `;
