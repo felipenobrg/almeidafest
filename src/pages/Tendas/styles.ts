@@ -56,13 +56,13 @@ export const InformationTendaContainer = styled.div`
 `;
 
 export const TendaType = styled.h1`
-  color: #ff3c04;
   font-family: "Roboto Slab";
   font-weight: 100;
   font-size: 2.5rem;
 
   span {
     font-weight: bold;
+    color: #ff3c04;
   }
 
   @media (max-width: 768px) {

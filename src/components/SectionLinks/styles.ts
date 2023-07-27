@@ -43,7 +43,7 @@ export const SectionLinksContainer = styled.nav`
   }
 
   @media (max-width: 768px) {
-    padding: 0;
+    padding: 0.2rem;
     overflow: auto;
     a {
     font-size: 0.8rem;

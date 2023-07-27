@@ -51,12 +51,12 @@ export function Tendas() {
         Loçacão de Tendas <span>Pirâmide</span>
         </TendaType>
         <CheckSize>Confira os TAMANHOS</CheckSize>
-        <TendaSizeContainer>
+        <TendaImgContainer>
           <div>
             <p><CheckCircle size={22} color="#ff3c04" weight="fill" /> 4x4</p>
             <p><CheckCircle size={22} color="#ff3c04" weight="fill" /> 5x5</p>
           </div>
-        </TendaSizeContainer>
+        </TendaImgContainer>
         <button>FAÇA SEU ORÇAMENTO<WhatsappLogo size={22} /></button>
         </InformationTendaContainer>
       </AboutTendaContainer>

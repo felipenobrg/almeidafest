@@ -6,7 +6,7 @@ export const AboutMesasECadeirasContainer = styled.div`
   justify-content: center;
   gap: 6rem;
   text-align: center;
-  margin: 2rem 0 6rem 0;
+  margin: 4rem 0 6rem 0;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -75,11 +75,19 @@ export const MesasECadeirasType = styled.h1`
 `;
 
 export const MesasECadeirasSize = styled.div`
-   p {
-    margin-top: 1rem;
+  h1 {
+   font-size: 1.5rem;
+  }
+
+  p {
     font-size: 1.1rem;
-    font-weight: bold;
-   }
+    color: ${(props) => props.theme["gray-700"]};
+    margin-top: 0.5rem;
+  }
+
+  span {
+    color: ${(props) => props.theme["gray-500"]};
+  }
 
   @media (max-width: 768px) {
     font-size: 1rem;
