@@ -26,7 +26,7 @@ export function Tendas() {
         </TendaImgContainer>
         <InformationTendaContainer>
         <TendaType>
-          Tendas <span>Chapéu de Bruxa</span>
+        Loçacão de Tendas <span>Chapéu de Bruxa</span>
         </TendaType>
         <CheckSize>Confira os TAMANHOS</CheckSize>
         <TendaSizeContainer>
@@ -38,7 +38,7 @@ export function Tendas() {
             <p><CheckCircle size={22} color="#ff3c04" weight="fill" /> 6x6</p>
           </div>
         </TendaSizeContainer>
-        <button>Fale Conosco <WhatsappLogo size={22} /></button>
+        <button>FAÇA SEU ORÇAMENTO <WhatsappLogo size={22} /></button>
         </InformationTendaContainer>
       </AboutTendaContainer>
 
@@ -48,7 +48,7 @@ export function Tendas() {
         </TendaImgContainer>
         <InformationTendaContainer>
         <TendaType>
-          Tendas <span>Pirâmide</span>
+        Loçacão de Tendas <span>Pirâmide</span>
         </TendaType>
         <CheckSize>Confira os TAMANHOS</CheckSize>
         <TendaSizeContainer>
@@ -57,7 +57,7 @@ export function Tendas() {
             <p><CheckCircle size={22} color="#ff3c04" weight="fill" /> 5x5</p>
           </div>
         </TendaSizeContainer>
-        <button>Fale Conosco <WhatsappLogo size={22} /></button>
+        <button>FAÇA SEU ORÇAMENTO<WhatsappLogo size={22} /></button>
         </InformationTendaContainer>
       </AboutTendaContainer>
      
