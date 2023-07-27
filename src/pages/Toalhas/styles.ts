@@ -1,0 +1,134 @@
+import { styled } from "styled-components";
+
+export const AboutToalhasContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  text-align: center;
+  margin: 4rem 0 6rem 0;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 0rem;
+  }
+`;
+
+export const InformationToalhasContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+
+    font-size: 1.1rem;
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 9px;
+    border: 0;
+    background: ${(props) => props.theme["green-300"]};
+    cursor: pointer;
+    font-weight: bold;
+    color: ${(props) => props.theme["white"]};
+
+    &:hover {
+      background: ${(props) => props.theme["green-400"]};
+      transition: 0.3s background-color;
+    }
+  }
+
+  @media (max-width: 768px) {
+    gap: 0.3rem;
+
+    button {
+      width: 12rem;
+      margin: 0 auto;
+      margin-top: 0.8rem;
+
+      svg {
+        width: 12rem;
+      }
+    }
+  }
+`;
+
+export const ToalhasType = styled.h1`
+  color: #ff3c04;
+  font-family: "Roboto Slab";
+  font-size: 2.5rem;
+
+  span {
+    font-weight: 100;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+  }
+`;
+
+export const ToalhasSize = styled.div`
+  h1 {
+   font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    color: ${(props) => props.theme["gray-700"]};
+    margin-top: 0.5rem;
+  }
+
+  span {
+    color: ${(props) => props.theme["gray-500"]};
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+  }
+`;
+
+export const ToalhasContainer = styled.div`
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    margin-top: 0.5rem;
+
+    p {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.3rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    margin: 0 auto;
+  }
+`;
+
+export const ToalhasImgContainer = styled.div`
+  display: flex;
+  
+  img {
+    width: 20rem;
+  }
+
+  @media (max-width: 768px) {
+    img {
+      width: 70%;
+      margin: 0 auto;
+    }
+  }
+`;
