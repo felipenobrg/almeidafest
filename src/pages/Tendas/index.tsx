@@ -13,12 +13,14 @@ import TendaPiramide from "../../assets/Tendas/Tenda-Piramide.jpg";
 import TendaChapeuDeBruxa from "../../assets/Tendas/Tenda-Chapeu.jpeg";
 
 import { CheckCircle, WhatsappLogo } from "phosphor-react";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { WhatsAppApiContext } from "../../context/WhatsAppApiContext";
 
 export function Tendas() {
   const { handleWhatsAppClick, setText } = useContext(WhatsAppApiContext)
-  setText("Olá. Gostaria fazer um orçamento de Tendas")
+  useEffect(() => {
+    setText("Olá. Gostaria fazer um orçamento de Tendas");
+  }, [setText]); 
   return (
     <>
       <Header />
@@ -26,7 +28,7 @@ export function Tendas() {
 
       <AboutTendaContainer>
         <TendaImgContainer>
-          <img src={TendaChapeuDeBruxa} alt="" />
+          <img src={TendaChapeuDeBruxa} loading="lazy" className="image-placeholder" />
         </TendaImgContainer>
         <InformationTendaContainer>
         <TendaType>
@@ -48,7 +50,7 @@ export function Tendas() {
 
       <AboutTendaContainer>
         <TendaImgContainer>
-          <img src={TendaPiramide} alt="" />
+          <img src={TendaPiramide} loading="lazy" alt="" />
         </TendaImgContainer>
         <InformationTendaContainer>
         <TendaType>

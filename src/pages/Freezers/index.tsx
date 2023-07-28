@@ -6,12 +6,14 @@ import { FreezersContainer, FreezersType, FreezersSize, FreezersImgContainer, Fr
 
 import FreezerGrande from "../../assets/Freezer/FreezerGrande.jpg"
 import FreezerPequena from "../../assets/Freezer/FreezerPequena.jpg"
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { WhatsAppApiContext } from "../../context/WhatsAppApiContext";
 
 export function Freezers() {
     const { handleWhatsAppClick, setText } = useContext(WhatsAppApiContext)
-    setText("Olá. Gostaria fazer um orçamento de Freezer")
+    useEffect(() => {
+      setText("Olá. Gostaria fazer um orçamento de Freezer");
+    }, [setText]); 
     return (
         <>
         <Header />

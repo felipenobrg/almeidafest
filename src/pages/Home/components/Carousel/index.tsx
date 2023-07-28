@@ -53,7 +53,7 @@ export function Carousel() {
             <>
             <SwiperSlide>
               <ImageContainer>
-                <img src={ResponsiveImageTenda} alt="" />
+                <img src={ResponsiveImageTenda} loading="lazy" alt="" />
                 <ImageText>
                   Faça seu o seu orçamento com quem tá há mais de 20 anos no
                   mercado!
@@ -65,7 +65,7 @@ export function Carousel() {
             </SwiperSlide>
             <SwiperSlide>
               <ImageContainer>
-                <img src={ResponsiveImageTenda2} alt="" />
+                <img src={ResponsiveImageTenda2} loading="lazy" alt="" />
                 <ImageText>
                 Trabalhamos com Locação de: Tendas, Mesas e Cadeiras, Freezers
                 </ImageText>
@@ -76,7 +76,7 @@ export function Carousel() {
             </SwiperSlide>
               <SwiperSlide>
               <ImageContainer>
-                <img src={CarouselImage3} alt="" />
+                <img src={CarouselImage3} loading="lazy" alt="" />
                 <ImageButton>
                   Clique para fazer seu orçamento <WhatsappLogo size={22} />
                 </ImageButton>
@@ -87,7 +87,7 @@ export function Carousel() {
             <>
               <SwiperSlide>
                 <ImageContainer>
-                  <img src={CarouselImage1} alt="" />
+                  <img src={CarouselImage1} loading="lazy" alt="" />
                   <ImageText>
                     Faça seu o seu orçamento com quem tá há mais de 20 anos no
                     mercado!
@@ -100,7 +100,7 @@ export function Carousel() {
 
               <SwiperSlide>
                 <ImageContainer>
-                  <img src={CarouselImage3} alt="" />
+                  <img src={CarouselImage3} loading="lazy" alt="" />
                   <ImageText>
                   Trabalhamos com Locação de: Tendas, Mesas e Cadeiras, Freezers
                   </ImageText>
@@ -112,7 +112,7 @@ export function Carousel() {
 
               <SwiperSlide>
                 <ImageContainer>
-                  <img src={CarouselImage2} alt="" />
+                  <img src={CarouselImage2} loading="lazy" alt=""  />
                   <ImageButton>
                     Clique para fazer seu orçamento <WhatsappLogo size={22} />
                   </ImageButton>

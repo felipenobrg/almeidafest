@@ -12,30 +12,31 @@ export const InfoCompany = styled.div`
   text-align: center;
   background: ${(props) => props.theme["gray-100"]};
 
-
-
   h1 {
     color: ${(props) => props.theme["gray-700"]};
     font-size: 2rem;
-    width: 80%;
+    width: 60%;
     margin-bottom: 0.3rem;
-
     strong {
       color: #D11B18;
       font-weight: bold;
     }
+  }
 
     @media (max-width: 768px) {
       font-size: 1.65rem;
+      h1 {
+        width: 100%;
+      }
     }
-  }
+  
 
   p {
     font-size: 1.2rem;
-    width: 50%;
+    width: 60%;
     margin-bottom: 2rem;
     @media (max-width: 768px) {
-      font-size: 1rem;
+      font-size: 1.1rem;
       width: 100%;
     }
   }
@@ -46,7 +47,7 @@ export const InfoCompany = styled.div`
     justify-content: center;
     gap: 0.3rem;
 
-    width: 22%;
+    width: 30%;
     background: ${(props) => props.theme["green-300"]};
     color: ${(props) => props.theme["white"]};
     margin-top: 1rem;
@@ -66,7 +67,16 @@ export const InfoCompany = styled.div`
       width: 100%;
       gap: 5px;
       padding: 1rem;
-      font-size: 1rem;
+      font-size: 1.3rem;
     }
   }
 `;
+
+export const SocialMediaContainer = styled.div`
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    font-size: 1.5rem;
+    color: ${(props) => props.theme["gray-500"]};
+  }
+`

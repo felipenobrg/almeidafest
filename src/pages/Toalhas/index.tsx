@@ -4,12 +4,14 @@ import { SectionLinks } from "../../components/SectionLinks";
 import { WhatsAppButton } from "../../components/WhatsAppButton";
 import { AboutToalhasContainer, ToalhasImgContainer, InformationToalhasContainer, ToalhasType, ToalhasSize } from "./styles";
 import ToalhasImg from "../../assets/Toalhas/Toalhas.jpg"
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { WhatsAppApiContext } from "../../context/WhatsAppApiContext";
 
 export function Toalhas() {
   const { handleWhatsAppClick, setText } = useContext(WhatsAppApiContext)
-  setText("Olá. Gostaria fazer um orçamento de Toalhas")
+  useEffect(() => {
+    setText("Olá. Gostaria fazer um orçamento de Toalhas");
+  }, [setText]); 
   return (
     <>
       <Header />
@@ -17,7 +19,7 @@ export function Toalhas() {
 
       <AboutToalhasContainer>
         <ToalhasImgContainer>
-          <img src={ToalhasImg} alt="" />
+          <img src={ToalhasImg} loading="lazy" alt="" />
         </ToalhasImgContainer>
         <InformationToalhasContainer>
           <ToalhasType>

@@ -11,19 +11,21 @@ import {
 } from "./styles";
 
 import MesasECadeirasImg from "../../assets/MesasECadeiras/MesasECadeiras.jpeg"
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { WhatsAppApiContext } from "../../context/WhatsAppApiContext";
 
 export function MesasECadeiras() {
   const { handleWhatsAppClick, setText } = useContext(WhatsAppApiContext)
-  setText("Olá. Gostaria fazer um orçamento de Mesas e Cadeiras")
+  useEffect(() => {
+    setText("Olá. Gostaria fazer um orçamento de Mesas e Cadeiras");
+  }, [setText]); 
   return (
     <>
       <Header />
       <SectionLinks />
       <AboutMesasECadeirasContainer>
         <MesasECadeirasImgContainer>
-          <img src={MesasECadeirasImg} alt="" />
+          <img src={MesasECadeirasImg} loading="lazy" alt="" />
         </MesasECadeirasImgContainer>
         <InformationMesasECadeirasContainer>
           <MesasECadeirasType><span>Locação</span> de Mesas e Cadeiras</MesasECadeirasType>

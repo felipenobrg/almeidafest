@@ -7,7 +7,7 @@ export const CarouselContainer = styled.div`
 
   img {
     width: 100%;
-    height: 38rem;
+    height: 35rem;
   }
 
   @media (max-width: 768px) {

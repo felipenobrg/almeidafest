@@ -8,7 +8,7 @@ export function Header() {
     <HeaderContainer>
       <MenuDropdown />
       <NavLink to={"/"}>
-        <img src={LogoAlmeidaFest} alt="" />
+        <img src={LogoAlmeidaFest} loading="lazy" alt="" />
       </NavLink>
     </HeaderContainer>
   );
