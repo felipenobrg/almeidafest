@@ -47,10 +47,10 @@ export function Home() {
         <SocialMediaContainer>
           <h1>Redes Sociais</h1>
           <a href="https://www.instagram.com/almeidafest/">
-            <InstagramLogo color="#7C7C8A" size={35} />
+            <InstagramLogo color="#7C7C8A" size={35} alt="Nós siga no instagram" />
           </a>
           <a href="https://www.facebook.com/flavionobregadealmeida.almeida?mibextid=LQQJ4d">
-            <FacebookLogo color="#7C7C8A" size={35} />
+            <FacebookLogo color="#7C7C8A" size={35} alt="Nós siga no facebook" />
           </a>
         </SocialMediaContainer>
         <button>

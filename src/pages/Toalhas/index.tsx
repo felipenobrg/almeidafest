@@ -19,7 +19,7 @@ export function Toalhas() {
 
       <AboutToalhasContainer>
         <ToalhasImgContainer>
-          <img src={ToalhasImg} loading="lazy" alt="" />
+          <img src={ToalhasImg} loading="lazy" alt="Toalhas de várias cores" />
         </ToalhasImgContainer>
         <InformationToalhasContainer>
           <ToalhasType>

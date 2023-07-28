@@ -30,7 +30,7 @@ export const InformationTendaContainer = styled.div`
 
     font-size: 1.1rem;
     padding: 1rem;
-    width: 20rem;
+    width: 100%;
     border-radius: 9px;
     border: 0;
     background: ${(props => props.theme["green-300"])};

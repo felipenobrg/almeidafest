@@ -28,7 +28,7 @@ export function Tendas() {
 
       <AboutTendaContainer>
         <TendaImgContainer>
-          <img src={TendaChapeuDeBruxa} loading="lazy" className="image-placeholder" />
+          <img src={TendaChapeuDeBruxa} loading="lazy" className="image-placeholder" alt="Tenda Chapéu de Bruxa" />
         </TendaImgContainer>
         <InformationTendaContainer>
         <TendaType>
@@ -50,7 +50,7 @@ export function Tendas() {
 
       <AboutTendaContainer>
         <TendaImgContainer>
-          <img src={TendaPiramide} loading="lazy" alt="" />
+          <img src={TendaPiramide} loading="lazy"alt="Tenda Chapéu Pirâmide"/>
         </TendaImgContainer>
         <InformationTendaContainer>
         <TendaType>

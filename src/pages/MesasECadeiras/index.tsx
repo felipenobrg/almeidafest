@@ -25,7 +25,7 @@ export function MesasECadeiras() {
       <SectionLinks />
       <AboutMesasECadeirasContainer>
         <MesasECadeirasImgContainer>
-          <img src={MesasECadeirasImg} loading="lazy" alt="" />
+          <img src={MesasECadeirasImg} loading="lazy" alt="Mesas e cadeiras" />
         </MesasECadeirasImgContainer>
         <InformationMesasECadeirasContainer>
           <MesasECadeirasType><span>Locação</span> de Mesas e Cadeiras</MesasECadeirasType>
