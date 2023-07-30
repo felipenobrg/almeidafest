@@ -69,7 +69,7 @@ export const ImageButton = styled.button`
 
   @media (max-width: 768px) {
     margin-top: 6rem;
-    font-size: 0.8rem;
+    font-size: 0.95rem;
     padding: 0.6rem;
   }
 `;
