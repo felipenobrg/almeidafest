@@ -14,11 +14,11 @@ export const InfoCompany = styled.div`
 
   h1 {
     color: ${(props) => props.theme["gray-700"]};
-    font-size: 2rem;
+    font-size: 1.8rem;
     width: 60%;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.4rem;
     strong {
-      color: #D11B18;
+      color: #EE090B;
       font-weight: bold;
     }
   }
