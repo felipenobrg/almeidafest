@@ -32,30 +32,32 @@ export const InformationMesasECadeirasContainer = styled.div`
     width: 20rem;
     border-radius: 9px;
     border: 0;
-    background: ${(props) => props.theme["green-300"]};
+    background: ${(props => props.theme["green-300"])};
     cursor: pointer;
     font-weight: bold;
-    color: ${(props) => props.theme["white"]};
+    color: ${(props => props.theme["white"])};
 
     &:hover {
-      background: ${(props) => props.theme["green-400"]};
-      transition: 0.3s background-color;
+        background: ${(props => props.theme["green-400"])};
+        transition: 0.3s background-color;
     }
   }
 
   @media (max-width: 768px) {
-    gap: 0.3rem;
+      gap: 0.3rem;
 
-    button {
-      width: 12rem;
-      margin: 0 auto;
-      margin-top: 0.8rem;
-
-      svg {
+      button {
+        padding: 0.8rem;
         width: 12rem;
+        margin: 0 auto;
+        margin-top: 0.8rem;
+        gap: 0;
+
+        svg {
+        width: 15rem;
+      }
       }
     }
-  }
 `;
 
 export const MesasECadeirasType = styled.h1`

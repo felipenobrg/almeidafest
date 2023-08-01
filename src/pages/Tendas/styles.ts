@@ -30,7 +30,7 @@ export const InformationTendaContainer = styled.div`
 
     font-size: 1.1rem;
     padding: 1rem;
-    width: 100%;
+    width: 20rem;
     border-radius: 9px;
     border: 0;
     background: ${(props => props.theme["green-300"])};
@@ -48,12 +48,14 @@ export const InformationTendaContainer = styled.div`
       gap: 0.3rem;
 
       button {
+        padding: 0.8rem;
         width: 12rem;
         margin: 0 auto;
         margin-top: 0.8rem;
+        gap: 0;
 
         svg {
-        width: 12rem;
+        width: 15rem;
       }
       }
     }
