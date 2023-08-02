@@ -30,7 +30,7 @@ export function Toalhas() {
             <p>Mesa: 150x150cm </p>
           </ToalhasSize>
           <button onClick={handleWhatsAppClick}>
-            FAÇA SEU ORÇAMENTO <WhatsappLogo size={24} />
+          Faça seu orçamento <WhatsappLogo size={24} />
           </button>
         </InformationToalhasContainer>
       </AboutToalhasContainer>

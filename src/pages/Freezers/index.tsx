@@ -29,7 +29,7 @@ export function Freezers() {
             <p>311 Litros</p>
           </FreezersSize>
           <button onClick={handleWhatsAppClick}>
-            FAÇA SEU ORÇAMENTO <WhatsappLogo size={24} />
+          Faça seu orçamento <WhatsappLogo size={24} />
           </button>
         </FreezersInformationContainer>
       </FreezersContainer>

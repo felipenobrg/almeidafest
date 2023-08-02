@@ -55,7 +55,7 @@ export function Home() {
         </SocialMediaContainer>
         <button>
           {" "}
-          <WhatsappLogo size={28} color="#ffff" /> FAÇA SEU ORÇAMENTO
+          <WhatsappLogo size={28} color="#ffff" /> Faça seu orçamento
         </button>
       </InfoCompany>
 

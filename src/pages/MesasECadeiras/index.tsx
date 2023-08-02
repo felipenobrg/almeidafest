@@ -36,7 +36,7 @@ export function MesasECadeiras() {
             <span>Peso suportado: 154kg</span>
           </MesasECadeirasSize>
           <button onClick={handleWhatsAppClick}>
-            FAÇA SEU ORÇAMENTO <WhatsappLogo size={24} />
+          Faça seu orçamento <WhatsappLogo size={24} />
           </button>
         </InformationMesasECadeirasContainer>
       </AboutMesasECadeirasContainer>
