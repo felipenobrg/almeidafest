@@ -11,11 +11,16 @@ export const FooterContent = styled.div`
   max-width: 800px;
   text-align: center;
   font-size: 14px;
-  color: #666;
+  color: #667; 
+
+  a {
+    color: #667;;
+  }
+  
 `;
 
 export const FooterLink = styled.a`
-  color: #666;
+  color: #667;
   text-decoration: none;
 
   &:hover {

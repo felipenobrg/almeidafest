@@ -6,6 +6,7 @@ import { AboutToalhasContainer, ToalhasImgContainer, InformationToalhasContainer
 import ToalhasImg from "../../assets/Toalhas/Toalhas.jpg"
 import { useContext, useEffect } from "react";
 import { WhatsAppApiContext } from "../../context/WhatsAppApiContext";
+import { Footer } from "../../components/Footer";
 
 export function Toalhas() {
   const { handleWhatsAppClick, setText } = useContext(WhatsAppApiContext)
@@ -34,6 +35,7 @@ export function Toalhas() {
           </button>
         </InformationToalhasContainer>
       </AboutToalhasContainer>
+      <Footer />
 
       <WhatsAppButton />
     </>

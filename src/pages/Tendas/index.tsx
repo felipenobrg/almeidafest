@@ -15,6 +15,7 @@ import TendaChapeuDeBruxa from "../../assets/Tendas/Tenda-Chapeu.jpeg";
 import { CheckCircle, WhatsappLogo } from "phosphor-react";
 import { useContext, useEffect } from "react";
 import { WhatsAppApiContext } from "../../context/WhatsAppApiContext";
+import { Footer } from "../../components/Footer";
 
 export function Tendas() {
   const { handleWhatsAppClick, setText } = useContext(WhatsAppApiContext)
@@ -66,6 +67,7 @@ export function Tendas() {
         <button onClick={handleWhatsAppClick}>FAÇA SEU ORÇAMENTO<WhatsappLogo size={22} /></button>
         </InformationTendaContainer>
       </AboutTendaContainer>
+      <Footer />
      
       <WhatsAppButton />
     </>

@@ -13,6 +13,7 @@ import {
 import MesasECadeirasImg from "../../assets/MesasECadeiras/MesasECadeiras.jpeg"
 import { useContext, useEffect } from "react";
 import { WhatsAppApiContext } from "../../context/WhatsAppApiContext";
+import { Footer } from "../../components/Footer";
 
 export function MesasECadeiras() {
   const { handleWhatsAppClick, setText } = useContext(WhatsAppApiContext)
@@ -40,6 +41,7 @@ export function MesasECadeiras() {
           </button>
         </InformationMesasECadeirasContainer>
       </AboutMesasECadeirasContainer>
+      <Footer />
 
       <WhatsAppButton />
     </>
