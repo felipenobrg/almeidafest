@@ -1,27 +1,57 @@
-# React + TypeScript + Vite
+<h1 align="center">Almeida Fest</h1>
+<p align="center">Almeida Fest is a freelance project for service provider company. The service are separate
+by category and each service has a WhatsApp link.
+<p align="center">
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-tecnologias"> Features </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-tecnologias"> Technologies </a>&nbsp;&nbsp;&nbsp;|&nbsp;
+    <a href="#-layout">Layout</a>
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔖 Layout
 
-Currently, two official plugins are available:
+<p align="center">
+<img  src="https://github.com/felipenobrg/almeidafest/assets/122055576/7dfae0ec-09a6-459e-abe8-edb650fef875>"/>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## :fire: Features
+<p>- Product Catalog: The website offers a comprehensive catalog of products services by company,
+  organized into different categories for easy navigation.</p>
+  
+<p>- WhatsApp Integration: To enhance communication with potential clients, each product page includes a link to contact 
+  the store via WhatsApp. This allows users to inquire about specific products or place orders directly from the website.</p>
+  
+## 🚀 Technologies
 
-## Expanding the ESLint configuration
+This project was developed using the following technologies:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- ReactJS
+- TypeScript
+- Styled-Components
+- ContextApi
+- React-Router-Dom
+- Swiper
+- Phosphor Icons
+- Google Search Console
+- Google Analytics
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Layout
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<p>Desktop: </p>
+
+<p align="center">
+<img src="https://github.com/felipenobrg/almeidafest/assets/122055576/bf5427c3-fa4e-4217-8682-431069cd296c">"/>
+</p>
+
+<br />
+
+<p>Mobile: </p>
+
+<p align="center">
+<img src="https://github.com/felipenobrg/almeidafest/assets/122055576/7dfae0ec-09a6-459e-abe8-edb650fef875>" />
+</p>
+
+---
+
+[My profile in Linkedln](https://www.linkedin.com/in/felipenobrg)
